@@ -4750,7 +4750,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 	
 	table.insert(module, {
 		Type = "Text",
-		Args = {"Fling"}
+		Args = {"طيران شخص"}
 	})
 	
 	local playerToFling
