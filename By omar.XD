@@ -1,11 +1,11 @@
--- YARHM 1.18.2
+-- BY OMAR 1.18.2
 -- is anyone even gonna see these comments
 
 
 if not game:IsLoaded() then
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Script loading",
-		Text = "Waiting for the game to finish loading!",
+		Title = "السكربت يحمل",
+		Text = "استنى ماب يحمل",
 		Duration = 5
 	})
 	game.Loaded:Wait()
@@ -739,7 +739,7 @@ Converted["_HubDesc"].Name = "HubDesc"
 Converted["_HubDesc"].Parent = Converted["_Menu"]
 
 Converted["_HubName"].Font = Enum.Font.GothamBold
-Converted["_HubName"].Text = "YARHM"
+Converted["_HubName"].Text = "من صنع عمر"
 Converted["_HubName"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_HubName"].TextScaled = true
 Converted["_HubName"].TextSize = 14
@@ -4995,7 +4995,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 		Args = {"Anti-fling", function(Self, state)
 			antiFling = state
 			if state then
-				fu.notification("Anti-fling activated.")
+				fu.notification("ما تقدر تطير اشتغل.")
 				flingDetectionCon = rs.Heartbeat:Connect(function()
 					for _, pl in ipairs(game:GetService("Players"):GetPlayers()) do
 						if pl.Character:IsDescendantOf(workspace) then
@@ -5036,7 +5036,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 				flingDetectionCon:Disconnect()
 				flingNeutralizerCon:Disconnect()
 				detectedPlayers = {}
-				fu.notification("Anti-fling deactivated.")
+				fu.notification("ما تقدر تطير اشتغل.")
 			end
 		end,}
 	})
@@ -5049,7 +5049,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 	
 	--table.insert(module, {
 	--	Type = "Dropdown",
-	--	Args = {"Player to fling", function()
+	--	Args = {"شخص تبي تطيره", function()
 	--		local playersAsStrings = {"None"}
 	--		for _, p in ipairs(game.Players:GetPlayers()) do
 	--			table.insert(playersAsStrings, p.Name)
@@ -5229,25 +5229,25 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 
 	-- Customize these with your own usernames and developers
 	local usernameColors = {
-		["XxxS_omeonexxX"] = Color3.fromHex("#f48fff"),
-		["Dextacular"] = Color3.fromHex("#f48fff"),
-		["yarhmplus"] = Color3.fromHex("#f48fff"),
-		["joystick531"] = Color3.fromHex("#ff0000"),
-		["givepetroblox"] = Color3.fromHex("#ff0000"),
-		["Bubberbolf"] = Color3.fromHex("#0030ff"),
+		["IDIOT91"] = Color3.fromHex("#f48fff"),
+		["NINOGOD"] = Color3.fromHex("#f48fff"),
+		["OQ912"] = Color3.fromHex("#f48fff"),
+		["POOL910"] = Color3.fromHex("#ff0000"),
+		["9oOooo"] = Color3.fromHex("#ff0000"),
+		["IDK91"] = Color3.fromHex("#0030ff"),
 	}
 
 	local specialUsernameColors = {
-		["heyprestonitsme"] = Color3.fromHex("#ffac33"),
-		["vuralnovada"] = Color3.fromHex("#ffac33"),
-		["Doge3071"] = Color3.fromHex("#ffac33"),
-		["jacobisawsome307"] = Color3.fromHex("#ffac33"),
-		["fweemeimtrapwed"] = Color3.fromHex("ffac33"),
+		["soolkodd"] = Color3.fromHex("#ffac33"),
+		["Doussadoussa"] = Color3.fromHex("#ffac33"),
+		["rdvx_100"] = Color3.fromHex("#ffac33"),
+		["BLUDTHINKS"] = Color3.fromHex("#ffac33"),
+		["THEHITMANW"] = Color3.fromHex("ffac33"),
 	}
 
-	local mainText = "YARHM Developer"
+	local mainText = "من صنع عمر"
 	local mainFont = Enum.Font.GothamBold
-	local specialText = "YARHM+"
+	local specialText = "الصكلنصي"
 	local specialFont = Enum.Font.GothamBold
 
 	local function createTextLabel(player, text, color)
